@@ -8,4 +8,4 @@ FamilyOS exists to give families an operating system for modern life. Instead of
 
 ### Vision
 
-Our vision is a world where technology doesn't demand more attention—it gives it back, allowing families to spend less time managing life and more time living it.
+Our vision is a world where technology doesn't demand more attention, it gives it back, allowing families to spend less time managing life and more time living it.
