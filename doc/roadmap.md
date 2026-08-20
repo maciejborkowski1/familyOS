@@ -16,9 +16,7 @@ The roadmap guides sequencing of FamilyOS's evolution and provides framework for
 
 **Objective:** Establish a frictionless family memory and information capture layer.
 
-**User outcome:** Family members can effortlessly share moments, thoughts or information without needing to organize them first.
-
-*Initial validation targets a single user (the author, as a parent) capturing personal parenting moments, before generalizing to multiple family members.*
+**User outcome:** The parent can effortlessly share moments, thoughts or information without needing to organize them first.
 
 ### Capabilities
 
@@ -36,7 +34,7 @@ The roadmap guides sequencing of FamilyOS's evolution and provides framework for
 
 **Objective:** Transform captured information into structured, connected and retriveable family knowledge.
 
-**User outcome:** Family members can easily find relevant information without knowing how or where it was stored.
+**User outcome:** The parent can easily find relevant information without knowing how or where it was stored.
 
 ### Capabilities
 
@@ -46,7 +44,7 @@ The roadmap guides sequencing of FamilyOS's evolution and provides framework for
 
 ### Success means
 
-> Family members can retrieve relevant stored information with > 80% accuracy, without needing to know where or how it was stored.
+> The parent can retrieve relevant stored information with > 80% accuracy, without needing to know where or how it was stored.
 
 ---
 
@@ -54,25 +52,25 @@ The roadmap guides sequencing of FamilyOS's evolution and provides framework for
 
 **Objective:** Provide contextual, proactive assistance across everyday family life.
 
-**User outcome:** Family members spend less time remembering, planning and managing everyday responsibilities, with support when they need it.
+**User outcome:** The parent spend less time remembering, planning and managing everyday responsibilities, with support when they need it.
 
 ### Capabilities
 
 - Provide proactive and reactive assistance based on family context and requests.
 - Take over or simplify repetitive and mundane tasks such as planning, reminders, bills and budgeting.
-- Support family members through complex situations with relevant context and guidance.
+- Support the parent through complex situations with relevant context and guidance.
 - Adapt assistance and build a profile based on family preferences, history and previous interactions for future anticipation.
 
 ### Success means
 
-> FamilyOS reduces the time family members spend managing everyday digital tasks by 50%.
+> FamilyOS reduces the time the parent spend managing everyday digital tasks by 50%.
 ---
 
 ## Phase 4 — Anticipate
 
 **Objective:** Anticipate family needs and proactively surface valuable opportunities, actions and improvements.
 
-**User outcome:** Family members benefit from relevant opportunities, insights and improvements without having to actively look for them or ask for them.
+**User outcome:** The parent benefit from relevant opportunities, insights and improvements without having to actively look for them or ask for them.
 
 ### Capabilities
 
@@ -82,7 +80,7 @@ The roadmap guides sequencing of FamilyOS's evolution and provides framework for
 
 ### Success means
 
-> Family members regularly act on proactive recommendations that they consider valuable.
+> The parent regularly act on proactive recommendations that they consider valuable.
 
 *The scope and capabilities of this phase will evolve based on learnings from previous phases.*
 ...

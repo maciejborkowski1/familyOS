@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(schtasks /Create /TN \"FamilyOS Telegram Bot\" /TR \"powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\\\\boro\\\\familyOS\\\\run_bot.ps1\" /SC ONLOGON /RL LIMITED /F 2>&1)",
+      "PowerShell(Get-Process -Id 8336,24484 -ErrorAction SilentlyContinue)"
+    ]
+  }
+}

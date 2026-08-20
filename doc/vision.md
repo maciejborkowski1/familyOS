@@ -12,4 +12,4 @@ FamilyOS exists to give families an operating system for modern life. Instead of
 
 ## Current Starting Point
 
-FamilyOS is being built and validated first as a single-user product — the author, as a parent — before expanding to multi-member family use. This lets us prove the core value (effortless capture → usable memory) with one real user before adding the complexity of shared family context, permissions, and multi-user coordination.
+FamilyOS's first product is built around a single, durable actor: the parent. The core problem — capturing and reflecting on meaningful parenting moments — is inherently personal, even in a mature version of the product. Each parent using FamilyOS would maintain their own library, not a shared one. This is a different model from shared family coordination tools (calendar, tasks, finances), which may or may not become part of FamilyOS's scope later, but are not assumed by default.

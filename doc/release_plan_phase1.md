@@ -101,6 +101,14 @@ search via pgvector), surfacing possible frameworks, and reaching the
 50-moment library target. Deliberately left undetailed until M0 is done —
 detailing it now would be planning fiction.
 
+**Worked example to keep in mind for later (not current scope):** if a
+moment captured a week ago touches on a problem, and a podcast episode
+consumed since then addresses that same problem, the system proactively
+surfaces the link between them — e.g. "this episode covers what you
+wrote about last week." This is the kind of proactive matching this
+milestone is aiming at; it depends on M0 being solid first (nothing to
+match against otherwise).
+
 ## M2 — Mobile Migration (deferred, not detailed yet)
 
 Migration from Telegram to a native/mobile capture experience. Sized

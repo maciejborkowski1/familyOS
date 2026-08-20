@@ -7,10 +7,17 @@ without needing to re-explain context each time.
 
 ## What this project is
 
-FamilyOS is a personal "operating system for family life." It is being
-built and validated first as a **single-user product** — the author, as a
-parent — before any expansion to multi-member family use. See
-`doc/vision.md` ("Current Starting Point") for the reasoning.
+FamilyOS's first product is built around a single, durable actor: **the
+parent**. The core problem — capturing and reflecting on meaningful
+parenting moments — is inherently personal, even in a mature version of
+the product: each parent would keep their own library, not a shared one.
+This is different from shared family-coordination tools (calendar, tasks,
+finances), which are not assumed to be part of FamilyOS's scope. See
+`doc/vision.md` ("Current Starting Point") for the full reasoning.
+
+Note on language: "parent," not "father" — the capture problem itself
+isn't gender-specific. "Father" belongs to (Nie)spokojny Tata's voice and
+branding, not to this product.
 
 The current build target is a **personal capture agent**: a frictionless
 way to save parenting moments (via Telegram) that later become structured
