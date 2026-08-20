@@ -9,3 +9,7 @@ Modern families live in an age of unlimited information, constant distractions, 
 ## Mission
 
 FamilyOS exists to give families an operating system for modern life. Instead of reacting to endless tasks, information, and decisions, families can focus their attention on what truly matters. FamilyOS adapts to every family's unique values, routines, and goals, quietly handling complexity in the background while helping parents make thoughtful decisions, build stronger relationships, and create lasting memories.
+
+## Current Starting Point
+
+FamilyOS is being built and validated first as a single-user product — the author, as a parent — before expanding to multi-member family use. This lets us prove the core value (effortless capture → usable memory) with one real user before adding the complexity of shared family context, permissions, and multi-user coordination.

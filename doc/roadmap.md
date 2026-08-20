@@ -18,6 +18,8 @@ The roadmap guides sequencing of FamilyOS's evolution and provides framework for
 
 **User outcome:** Family members can effortlessly share moments, thoughts or information without needing to organize them first.
 
+*Initial validation targets a single user (the author, as a parent) capturing personal parenting moments, before generalizing to multiple family members.*
+
 ### Capabilities
 
 - Capture text, photos, videos, links and other relevant data types.
