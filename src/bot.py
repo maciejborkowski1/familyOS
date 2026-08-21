@@ -19,8 +19,8 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     voice = update.message.voice
     file = await context.bot.get_file(voice.file_id)
     file_bytes = bytes(await file.download_as_bytearray())
-    audio_url = storage.upload_audio(file_bytes, extension="ogg")
-    storage.save_moment(raw_text=None, audio_url=audio_url, source="telegram")
+    audio_path = storage.upload_audio(file_bytes, extension="ogg")
+    storage.save_moment(raw_text=None, audio_url=audio_path, source="telegram")
     await update.message.reply_text("Zapisano.")
 
 

@@ -37,6 +37,9 @@ from code alone:
   milestones (M0–M3) and the specific versions within M0 (v0.1, v0.2,
   v0.3...), each with explicit in-scope / out-of-scope boundaries and a
   "Success means" criterion.
+- `CHANGELOG.md` — what has actually shipped, version by version,
+  including fixes found after the fact. Check this for current status;
+  the release plan describes intent, not status.
 
 **If a task isn't described in one of these docs, treat that as a signal
 to stop and ask, not to improvise scope.**
@@ -44,10 +47,14 @@ to stop and ask, not to improvise scope.**
 ## Current status
 
 - Active milestone: **M0 — Telegram Capture MVP**
-- Active version: **v0.1 — Draft capture** (raw text/voice → stored,
-  zero classification)
-- Update this section (and the version status) whenever a version ships
-  or the active target changes, so the next session starts accurate.
+- Active version: **v0.1.1 — in progress.** Fixing gaps found in the
+  v0.1 review: making the `voice-notes` bucket private with signed URLs,
+  confirming RLS on `moments`, confirming EU region. See `CHANGELOG.md`
+  for exact scope and `doc/v0.1-summary.md` for how these were found.
+- **Not yet validated:** the 2-week real-usage test from v0.1's success
+  criterion hasn't run yet — run it in parallel with the v0.1.1 fixes.
+- Update this section (and `CHANGELOG.md`) whenever a version ships or
+  the active target changes, so the next session starts accurate.
 
 ## Architecture decisions already made
 

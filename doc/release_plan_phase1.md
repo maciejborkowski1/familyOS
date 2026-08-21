@@ -123,6 +123,27 @@ after this milestone, not part of its definition of done.
 
 ---
 
+## Security (applies from v0.1 onward)
+
+These were decided in planning discussion but need to live here, not just
+in conversation history, so they're visible to anyone (including Claude
+Code) working on this repo:
+
+- `.env` in `.gitignore` from the first commit — Supabase/Telegram keys
+  never enter git history, especially since this repo is public.
+- Row Level Security (RLS) enabled on the `moments` table, even for a
+  single user — defense in depth if a key is ever exposed.
+- `service_role` key used only in the local script, never in anything
+  that could reach a client or a public repo; `anon` key is the only one
+  ever safe to expose.
+- Supabase project region set to EU (Frankfurt) — no cost difference,
+  keeps family data in the EU.
+- **Audio in Supabase Storage: private bucket, signed/expiring URLs —
+  not `get_public_url()`.** A public bucket means anyone who obtains a
+  stored URL can listen to the recording.
+
+---
+
 ## Tech Stack Decision (effective as of v0.1)
 
 | Concern | Choice | Why |

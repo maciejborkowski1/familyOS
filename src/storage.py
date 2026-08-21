@@ -23,4 +23,9 @@ def upload_audio(file_bytes: bytes, extension: str) -> str:
     _client.storage.from_(VOICE_BUCKET).upload(
         path, file_bytes, {"content-type": "audio/ogg"}
     )
-    return _client.storage.from_(VOICE_BUCKET).get_public_url(path)
+    return path
+
+
+def get_signed_audio_url(path: str, expires_in: int = 3600) -> str:
+    result = _client.storage.from_(VOICE_BUCKET).create_signed_url(path, expires_in)
+    return result["signedURL"]

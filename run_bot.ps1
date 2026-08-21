@@ -8,6 +8,9 @@ if ($alreadyRunning) {
 
 $logDir = Join-Path $root "logs"
 if (-not (Test-Path $logDir)) { New-Item -ItemType Directory -Path $logDir | Out-Null }
-$log = Join-Path $logDir "bot.log"
 
-& "$root\venv\Scripts\python.exe" "$root\src\bot.py" *>> $log
+Start-Process -FilePath "$root\venv\Scripts\python.exe" `
+    -ArgumentList "`"$root\src\bot.py`"" `
+    -RedirectStandardOutput (Join-Path $logDir "bot.out.log") `
+    -RedirectStandardError (Join-Path $logDir "bot.log") `
+    -WindowStyle Hidden
